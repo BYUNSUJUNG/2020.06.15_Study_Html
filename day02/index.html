@@ -1,0 +1,40 @@
+<!doctype html> <!--html5임을 알림-->
+<html>
+        <head>  
+                <title>이미지와 경로</title>
+                <meta charset="utf-8">
+        </head>
+        <body>
+                <!--1. 텍스트를 클릭하여 웹사이트 이동하기-->
+                <a href="http://www.naver.com">네이버 이동</a> 
+                <br/>
+                <!--2. 이미지를 클릭하여 웹사이트 이동하기-->
+                <a href="http://www.naver.com">
+                        <img src="img/redImg.png" />
+                </a>
+                <br/>
+                <!--3. 내가 만든 sub페이지로 이동하기-->
+                <a href="sub/sub.html">sub페이지로 이동</a>
+                <br/>
+                <!--4. 내가 만든 sub페이지 새탭으로 이동하기-->
+                <a href="sub/sub.html" target="_blank">sub페이지 새탭으로 이동</a>
+                <br/>
+                <!--5. 내가 만든 sub페이지로 이동안내하기-->
+                <a href="sub/sub.html" title="링크에 대한 내용 요약">sub페이지로 이동</a>
+        
+                <br/><br/><br/><br/><br/><hr/>
+                
+                <!--6. 페이지 내에서 이동-->
+                <a href="#first">첫번째 이미지로 이동</a>
+                <a href="#second">두번째 이미지로 이동</a>
+
+                <a name="first">
+                        <h1>첫번째 이미지 내용 부분입니다</h1>
+                        <img src="img/redImg.png" />
+                </a>
+                <a name="second">
+                        <h1>두번째 이미지 내용 부분입니다</h1>
+                        <img src="sub/img/pinkImg.png" />
+                </a>
+        </body>
+</html>
