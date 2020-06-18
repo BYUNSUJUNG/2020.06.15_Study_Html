@@ -1,0 +1,20 @@
+<!doctype html> <!--html5임을 알림-->
+<html>
+    <head>  
+        <title>멀티미디어 재생태그</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       <h2>오디오 태그</h2>
+        <audio src="audio.mp3" controls="controls" preload="none" loop="loop">
+            <source src="audio.mp3" type="audio/mp3" /> <!--type: 오디오 형식을 미리 알려준다-->
+            <source src="audio.mp3" type="" />
+            <source src="audio.mp3" type="" />
+        </audio>
+        <h2>비디오 태그</h2>
+        <video width="450" height="300" controls="controls" autoplay="autoplay">
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
